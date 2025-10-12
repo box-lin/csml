@@ -1,5 +1,15 @@
 ### Principal Component Analysis
 
+The process of Principal Component Analysis (PCA) involves 
+
+1. standardizing the dataset
+2. calculating the covariance matrix
+3. computing the eigenvalues and eigenvectors of that matrix
+4. sorting the eigenvectors by their corresponding eigenvalues
+5. and then using the top eigenvectors to transform the original data into a lower-dimensional space. 
+
+---
+
 Example of using PCA to reduce data in 3 dimentional space into 2 dimentional space.
 
 - PCA1: Find a line that crosses the central. All points that projected to this line should exhibit the maximum possible variance. This maximum variance means that PCA1 captures the largest amount of the data's overall variability or spread. 
@@ -17,3 +27,4 @@ We got:
 
 <img width="390" height="280" alt="image" src="https://github.com/user-attachments/assets/1ceed01a-e910-4cfc-8168-e4d88269eb50" />
 
+---
